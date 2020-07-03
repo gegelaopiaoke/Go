@@ -18,4 +18,24 @@ func main() {
 	fmt.Println(s1)
 	fmt.Printf("%p\n", s1) //0xc00000e340
 
+	s1 = append(s1, 6, 7, 8)
+	fmt.Println(s1)
+	fmt.Printf("len:%d,cap%d\n", len(s1), cap(s1))
+	fmt.Printf("%p\n", s1)
+
+	s1 = append(s1, 9, 10)
+	fmt.Println(s1)
+	fmt.Printf("len:%d,cap%d\n", len(s1), cap(s1))
+	fmt.Printf("%p\n", s1)
+
+	s1 = append(s1, 11, 12, 13, 14, 15)
+	fmt.Println(s1)
+	fmt.Printf("len:%d,cap%d\n", len(s1), cap(s1))
+	fmt.Printf("%p\n", s1)
+
+	s1 = append(s1, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25)
+	fmt.Println(s1)
+	fmt.Printf("len:%d,cap%d\n", len(s1), cap(s1))
+	fmt.Printf("%p\n", s1)
+
 }
