@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() { //程序的入口，是一个特殊的函数
 	/*
 		函数function
@@ -40,14 +38,5 @@ func main() { //程序的入口，是一个特殊的函数
 	//elapsed := time.Since(t1)
 	//fmt.Println(elapsed)
 	//1.求1-10的和
-	getsum(100)
 
-}
-
-func getsum(n int) {
-	sum := 0
-	for i := 1; i <= n; i++ {
-		sum += i
-	}
-	fmt.Printf("1到%d的和是:%d\n", n, sum)
 }
