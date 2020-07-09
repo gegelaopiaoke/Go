@@ -36,7 +36,6 @@ func main() {
 	s2 := []int{1, 2, 3, 4} //变长
 	fmt.Println(s2)
 	fmt.Printf("%T,%T\n", arr, s2)
-
 	s3 := make([]int, 3, 8)
 	fmt.Println(s3)
 	fmt.Printf("容量:%d,长度：%d\n", cap(s3), len(s3))
